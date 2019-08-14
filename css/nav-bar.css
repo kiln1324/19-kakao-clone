@@ -1,0 +1,53 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    padding: 20px 50px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #fcfcfc;
+    border-top: 1px solid #fcfcfc;
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav i {
+    font-size: 20px;
+}
+
+.nav .nav__list-link{
+    position: relative;
+}
+
+.nav .nav__badge{
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    color: white;
+    background-color: #dc5d46;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+@keyframes shownavbar{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: none;
+    }
+}
+
+.nav{
+    transform: translateY(80px);
+    animation: shownavbar .5s ease-out forwards;
+    animation-delay: 0.6s;
+}
