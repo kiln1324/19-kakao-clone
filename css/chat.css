@@ -33,7 +33,6 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    /**/
 }
 
 .chat__icon-left{
@@ -123,9 +122,6 @@
 
 }
 
-.message .message__content{
-}
-
 .incoming-message{
     align-self: flex-start;
 }
@@ -182,7 +178,7 @@
 @keyframes incoming-ani{
     from{
         opacity: 0;
-        transform: translateX(-200px)
+        transform: translateX(-200px);
     }
     to{
         opacity: 1;
@@ -197,7 +193,7 @@
 @keyframes sent-ani{
     from{
         opacity: 0;
-        transform: translateX(200px)
+        transform: translateX(200px);
     }
     to{
         opacity: 1;
