@@ -1,2 +1,2 @@
-# kakao-clone
-cloning kakao dektop app-yun
+# 19-kakao-clone
+clonnig kakao chat
