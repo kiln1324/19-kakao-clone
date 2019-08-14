@@ -87,7 +87,7 @@
 
 .chat__icon{
     font-size: 22px;
-    transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .chat__write:focus ~ .chat__icon{
